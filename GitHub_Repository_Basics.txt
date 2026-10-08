@@ -1,0 +1,105 @@
+GITHUB REPOSITORY BASICS
+A Beginner's Guide to Creating and Managing a GitHub Repository
+
+WHAT IS GITHUB?
+GitHub is a website where you can store files, share projects, and track
+changes to your work. It is commonly used for programming projects, but
+it can also store documentation and other project files.
+
+WHAT IS A REPOSITORY?
+A repository (often called a "repo") is the home for a project on GitHub.
+It holds the project's files and a history of changes made to them.
+For example, a Python class repository might contain Python scripts,
+sample data files, and a README.md file that explains the project.
+
+HOW TO CREATE A REPOSITORY
+1. Go to https://github.com and sign in (or create a free account).
+2. Click the + menu in the upper-right corner, then choose "New repository."
+3. Choose the owner (usually your personal GitHub account).
+4. Enter a repository name, such as "python-practice" or "hello-world."
+5. Optionally, enter a short description explaining its purpose.
+6. Choose the visibility:
+   - Public: Anyone on the internet can view the repository.
+   - Private: Access is limited to you and people you authorize.
+7. For a new project, select the option to add a README file if desired.
+8. Click "Create repository."
+
+WHAT IS A README.md FILE?
+A README.md is the main introduction to your repository. GitHub normally
+shows it on the repository's main page. The .md extension means Markdown,
+a simple way to format text using symbols.
+
+A useful README might explain:
+- Project title
+- Description of the project
+- Tools used
+- Files included
+- How to run the program
+- Additional information
+
+Basic Markdown examples:
+# Main Title                 (large heading)
+## Description              (smaller heading)
+- Python                    (bullet point)
+**Important**              (bold text)
+[GitHub](https://github.com) (clickable link)
+
+HOW TO ADD FILES TO A REPOSITORY
+1. Open your repository on GitHub.
+2. Above the file list, select "Add file" and then "Upload files."
+3. Drag your files into the page or choose files from your computer.
+4. Write a brief commit message, such as "Add Python exercises."
+5. Commit your changes using the on-screen controls.
+
+You can also use "Add file" > "Create new file" to make a file directly
+on GitHub. Avoid uploading passwords, API keys, or private information.
+
+HOW TO EDIT THE README
+1. Open README.md inside the repository.
+2. Click the pencil icon to edit the file.
+3. Add or change the text using Markdown formatting.
+4. Select "Preview" to check how the README will appear.
+5. Click "Commit changes..." and confirm the commit.
+
+WHAT DOES "COMMIT CHANGES" MEAN?
+A commit saves a snapshot of your changes to the repository's history.
+A commit message describes what you changed, making it easier to review
+past work. Example commit messages include:
+- Create repository and add README
+- Add first Python program
+- Fix spelling in project description
+
+A commit is not the same as simply editing a file: the changes must be
+committed to become part of the repository's recorded history.
+
+OTHER USEFUL GITHUB TERMS
+- Git: The version-control system that GitHub is built around.
+- Branch: A separate line of work; "main" is often the default branch.
+- Clone: Download a working copy of a repository to your computer using Git.
+- Push: Send local Git commits to a remote repository such as GitHub.
+- Pull request: Propose changes from one branch to another for review.
+- .gitignore: A file listing files and folders Git should ignore.
+
+BEGINNER TIPS
+- Give repositories clear, descriptive names.
+- Keep your README updated as the project changes.
+- Organize related files into folders when a project grows.
+- Use short, specific commit messages instead of "changes" or "update."
+- Double-check public repositories before uploading personal information.
+- You do not need to install Git to create or edit a repository on GitHub's
+  website. Git is useful when you start managing local files with Git.
+
+OFFICIAL GITHUB LEARNING RESOURCES
+Creating a repository:
+https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository
+
+GitHub Hello World beginner tutorial:
+https://docs.github.com/en/get-started/using-github/hello-world
+
+Adding files to a repository:
+https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository
+
+Basic Markdown writing and formatting:
+https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
+This guide covers basic GitHub repository tasks using the website.
